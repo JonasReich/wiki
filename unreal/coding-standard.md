@@ -9,16 +9,18 @@ This page lists only the more specific/obscure rules. You can find a complete ve
 ## Naming conventions
 * PascalCase for everything - event member variables
 * Typename prefixes
-  Type | Prefix | Example
-  ---|---|---
-  Template | T | TArray\<T>
-  UObject | U | UMyObject
-  AActor | A | AMyCharacter
-  SWdiget | S | SMyWidget
-  Interfaces | I | IInteractable
-  Enums | E | EBuildingType
-  Boolean Variables | b | bIsActive
-  Other | F | FMath
+
+  |Type              | Prefix | Example       |
+  |------------------|--------|---------------|
+  |Template          | T      | TArray\<T>    |
+  |UObject           | U      | UMyObject     |
+  |AActor            | A      | AMyCharacter  |
+  |SWdiget           | S      | SMyWidget     |
+  |Interfaces        | I      | IInteractable |
+  |Enums             | E      | EBuildingType |
+  |Boolean Variables | b      | bIsActive     |
+  |Other             | F      | FMath         |
+  
 * Prefix out parameters with 'Out', e.g. ```int32 DoSomeCalculation(int32 InputA, int23 InputB, bool bOutWasSuccessful);```
 
 ## C++ Types
