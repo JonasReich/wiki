@@ -19,7 +19,7 @@ Link collection, which has to be turned into proper wiki entrys:
 * Debugging
 
 ## Coding Standard
-* [Coding Standard](https://docs.unrealengine.com/latest/INT/Programming/Development/CodingStandard/#comments)
+[Main page](coding-standard.md)
 
 ## General/Introductory articels
 * [Introduction to C++ Programming in UE4](https://docs.unrealengine.com/latest/INT/Programming/Introduction/index.html)
