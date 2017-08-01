@@ -37,7 +37,7 @@ Intermediate/
 # Config files and logs
 Saved/
 
-# Assets in engine/target platform formats, as opposed to the source formats stored in .uasset files (disposable, can always be regenerated using .uasset content)
+# Assets in engine/target platform formats (source stored in .uasset files)
 DerivedDataCache/
 
 /Build/**/FileOpenOrder/**
