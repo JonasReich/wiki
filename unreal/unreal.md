@@ -1,7 +1,5 @@
-[Wiki](../index.md)/Unreal
-
----
 # Unreal Engine 4
+[Wiki](../index.md)/Unreal
 
 Link collection, which has to be turned into proper wiki entrys:
 
@@ -9,8 +7,7 @@ Link collection, which has to be turned into proper wiki entrys:
 * [Unreal VS Extension](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/UnrealVS/)
 * [Visual Studio Setup](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/)
 
-## Source Control
-[Main page](source-control.md)
+## [Source Control](source-control.md)
 
 ## Workflow
 * Creating new source code files
@@ -18,8 +15,7 @@ Link collection, which has to be turned into proper wiki entrys:
 * Plugin Creation
 * Debugging
 
-## Coding Standard
-[Main page](coding-standard.md)
+## [Coding Standard](coding-standard.md)
 
 ## General/Introductory articels
 * [Introduction to C++ Programming in UE4](https://docs.unrealengine.com/latest/INT/Programming/Introduction/index.html)

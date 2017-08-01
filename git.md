@@ -1,7 +1,5 @@
-[Wiki](index.md)/Git
-
----
 # Git
+[Wiki](index.md)/Git
 
 The main version control tool I use. As you can see, most of my spare time projects are hosted on GitHub, which should speak for itself.
 
