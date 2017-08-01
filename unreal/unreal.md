@@ -10,8 +10,7 @@ Link collection, which has to be turned into proper wiki entrys:
 * [Visual Studio Setup](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/)
 
 ## Source Control
-* SVN/Perforce editor integration
-* Ignore files
+[Main page](source-control.md)
 
 ## Workflow
 * Creating new source code files
