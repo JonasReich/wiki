@@ -12,7 +12,7 @@ I've only really seen it work with SVN and Perforce - the git integration seems 
 There are many files in an Unreal project that you don't want to check into source control, because they can easily be regenerated on the fly.
 The only exception are built DLLs that are required for artists/level designers to open the project without rebuilding from source.
 
-```sh
+{% highlight sh %}
 # Visual Studio user specific files
 .vs/
 
@@ -57,6 +57,7 @@ DerivedDataCache/
 /Plugins/**/Binaries/**/*.lib
 /Plugins/**/Binaries/**/*.exp
 /Plugins/**/Binaries/**/*-DebugGame.*
-```
+{% endhighlight %}
+
 You could also add ```*.dll``` to the ignores and unignore the specific dlls you want to track.
 This might be useful, because building while the Editor is still opened creates a new dll with a new integer suffix that isn't covered by the ignores above. However you have to modify this ignore list for every single game.

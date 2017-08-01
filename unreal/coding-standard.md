@@ -31,7 +31,7 @@ This page lists only the more specific/obscure rules. You can find a complete ve
 
 ## Comments
 Function comments should follow this style, especially in the case of BlueprintCallable Ufunctions, because only then they are incorporated into the corresponding Blueprint nodes by UHT.
-```C++
+{% highlight c++ %}
 /**
  * Single line function description
  * @param FirstParameter - Single line parameter description
@@ -39,7 +39,7 @@ Function comments should follow this style, especially in the case of BlueprintC
  * @return Description of return value
  */
 float DoSomething(float& FirstParameter, float& SecondParameter);
-```
+{% endhighlight %}
 
 ## General
 * Always place all braces. This means no if without curly braces.
