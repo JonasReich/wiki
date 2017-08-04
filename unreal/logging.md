@@ -5,7 +5,7 @@
 You can always use the LogTemp for quick usage. However a custom log category is reccommended to keep everything clean and sorted.
 
 {% highlight c++ %}
-UE_LOG(LogTemp, Warning, TEXT("Your message"));```
+UE_LOG(LogTemp, Warning, TEXT("Your message"));
 {% endhighlight %}
 
 ## Defining A Custom Log Category
