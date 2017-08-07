@@ -5,7 +5,7 @@
 Unreal has a neat editor integration that lets you automatically check out assets and commit/submit/check them in again once you've finished working on them.
 I've only really seen it work with SVN and Perforce - the git integration seems to be a semi-functional beta only.
 
-[Unreal Documentation](https://docs.unrealengine.com/latest/INT/Engine/Basics/SourceControl/InEditor/)
+[_Unreal Documentation_](https://docs.unrealengine.com/latest/INT/Engine/Basics/SourceControl/InEditor/)
 
 ## Ignore files
 There are many files in an Unreal project that you don't want to check into source control, because they can easily be regenerated on the fly.

@@ -13,6 +13,6 @@ The main version control tool I use. As you can see, most of my spare time proje
 
 Originally a mergetool for Perforce, p4Merge can be set up to merge files independently of the source control software used. In contrast to Perforce, p4Merge can be used for free.
 
-There's a download on the [Perforce download page](https://www.perforce.com/downloads/visual-merge-tool)
+There's a download on the [_Perforce download page_](https://www.perforce.com/downloads/visual-merge-tool)
 
 ### Meld

@@ -42,4 +42,4 @@ GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on scree
 {% endhighlight %}
 
 ## Log Macros
-[Unreal Wiki](https://wiki.unrealengine.com/Log_Macro_with_Netmode_and_Colour)
+[_Unreal Wiki_](https://wiki.unrealengine.com/Log_Macro_with_Netmode_and_Colour)

@@ -4,8 +4,8 @@
 Link collection, which has to be turned into proper wiki entrys:
 
 ## Visual Studio Setup
-* [Unreal VS Extension](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/UnrealVS/)
-* [Visual Studio Setup](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/)
+* [_Unreal VS Extension_](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/UnrealVS/)
+* [_Visual Studio Setup_](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/)
 
 ## [Source Control](source-control.md)
 
@@ -18,8 +18,8 @@ Link collection, which has to be turned into proper wiki entrys:
 ## [Coding Standard](coding-standard.md)
 
 ## General/Introductory Articels
-* [Introduction to C++ Programming in UE4](https://docs.unrealengine.com/latest/INT/Programming/Introduction/index.html)
-* [Unreal Engine 4 For Unity Developers](https://docs.unrealengine.com/latest/INT/GettingStarted/FromUnity/)
+* [_Introduction to C++ Programming in UE4_](https://docs.unrealengine.com/latest/INT/Programming/Introduction/index.html)
+* [_Unreal Engine 4 For Unity Developers_](https://docs.unrealengine.com/latest/INT/GettingStarted/FromUnity/)
 
 ## Helper Functions
 
@@ -34,14 +34,14 @@ Link collection, which has to be turned into proper wiki entrys:
 * Data types
 	* int32, etc.
 	* FString vs FText vs FName
-	* [String Conversion](https://wiki.unrealengine.com/String_Conversions:_FString_to_FName,_FString_to_Int32,_Float_to_FString)
+	* [_String Conversion_](https://wiki.unrealengine.com/String_Conversions:_FString_to_FName,_FString_to_Int32,_Float_to_FString)
 * Collections (TArray, TMap, etc.)
 
 ## Unreal C++
 * C++/Blueprint Interaction 
-* [Unreal Interfaces](https://wiki.unrealengine.com/Interfaces_in_C%2B%2B)
-* [UFUNCTION](https://wiki.unrealengine.com/UFUNCTION)
-* [UPROPERTY](https://wiki.unrealengine.com/UPROPERTY)
+* [_Unreal Interfaces_](https://wiki.unrealengine.com/Interfaces_in_C%2B%2B)
+* [_UFUNCTION_](https://wiki.unrealengine.com/UFUNCTION)
+* [_UPROPERTY_](https://wiki.unrealengine.com/UPROPERTY)
 * Unreal Header Tool
 * Automatically generated source code -> X.generated.h & GENERATED_BODY()
 * TSubclassOf<T>
