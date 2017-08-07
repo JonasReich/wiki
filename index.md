@@ -11,6 +11,22 @@ Here are some links to get you started:
 
 [_Markdown Cheat Sheet_](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 [_Markdown Table Generator_](http://www.tablesgenerator.com/markdown_tables)
+{% highlight markdown %}
+{{ "{% highlight c++ }}%}
+
+// Random Comment
+void RandomCPlusPlusFunction(int RandomInputArgument);
+
+{{ "{% endhighlight }}%}
+{% endhighlight %}
+
+Which outputs:
+
+{% highlight c++ %}
+// Random Comment
+void RandomCPlusPlusFunction(int RandomInputArgument);
+
+{% endhighlight %}
 
 Also: Please make all [_links to external pages_](google.com) _italic_, so we can differentiate them more easily from [links to other wiki pages](git.md).
 
