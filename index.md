@@ -9,15 +9,15 @@ This wiki is supposed to be a personal notebook and knowledge-base for anything 
 This wiki is written in Markdown and processed by [_Jekyll_](https://jekyllrb.com/).
 Here are some links to get you started:
 
-[_Markdown Cheat Sheet_](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-[_Markdown Table Generator_](http://www.tablesgenerator.com/markdown_tables)
+* [_Markdown Cheat Sheet_](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [_Markdown Table Generator_](http://www.tablesgenerator.com/markdown_tables)
 {% highlight markdown %}
-{{ "{% highlight c++ }}%}
+{{ "{% highlight c++ " }}%}
 
 // Random Comment
 void RandomCPlusPlusFunction(int RandomInputArgument);
 
-{{ "{% endhighlight }}%}
+{{ "{% endhighlight " }}%}
 {% endhighlight %}
 
 Which outputs:
