@@ -1,8 +1,6 @@
 # Unreal Engine 4
 [Wiki](../index.md)/Unreal
 
-Link collection, which has to be turned into proper wiki entrys:
-
 ## Visual Studio Setup
 * [_Unreal VS Extension_](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/UnrealVS/)
 * [_Visual Studio Setup_](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/)
