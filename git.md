@@ -16,3 +16,6 @@ Originally a mergetool for Perforce, p4Merge can be set up to merge files indepe
 There's a download on the [_Perforce download page_](https://www.perforce.com/downloads/visual-merge-tool)
 
 ### Meld
+
+## References (Articles, etc)
+[_Submodules_](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)

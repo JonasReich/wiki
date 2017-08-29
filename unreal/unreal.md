@@ -1,6 +1,8 @@
 # Unreal Engine 4
 [Wiki](../index.md)/Unreal
 
+[_Official Documentation_](https://docs.unrealengine.com/latest/INT/)
+
 ## Visual Studio Setup
 * [_Unreal VS Extension_](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/UnrealVS/)
 * [_Visual Studio Setup_](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/)

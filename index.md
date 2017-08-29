@@ -1,10 +1,17 @@
 # Welcome
 This wiki is supposed to be a personal notebook and knowledge-base for anything related to gamedev that isn't properly documented elsewhere.
 
-## [Unreal Engine 4](unreal/unreal.md)
-[_Official Documentation_](https://docs.unrealengine.com/latest/INT/)
-
 ## Markdown
+## Engines
+### [Unreal Engine 4](unreal/unreal.md)
+[_Official Documentation_](https://docs.unrealengine.com/latest/INT/)
+### [Unity3D](unity/unity.md)
+
+## Languages
+### C++
+### C#
+### Markdown
+[Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 This wiki is written in Markdown and processed by [_Jekyll_](https://jekyllrb.com/).
 Here are some links to get you started:
@@ -30,6 +37,8 @@ void RandomCPlusPlusFunction(int RandomInputArgument);
 
 Also: Please make all [_links to external pages_](google.com) _italic_, so we can differentiate them more easily from [links to other wiki pages](git.md).
 
-## [Git](git.md)
+## Algorithms
+[_Roguelike Vision Algorithms (Tile Based)_](http://www.adammil.net/blog/v125_Roguelike_Vision_Algorithms.html)
 
-## [Unity](unity/unity.md)
+## Tools
+## [Git](git.md)
