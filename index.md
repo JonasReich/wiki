@@ -11,7 +11,6 @@ This wiki is supposed to be a personal notebook and knowledge-base for anything 
 ### C++
 ### C#
 ### Markdown
-[Markdown Cheat Sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 This wiki is written in Markdown and processed by [_Jekyll_](https://jekyllrb.com/).
 Here are some links to get you started:
