@@ -1,7 +1,6 @@
 # Welcome
 This wiki is supposed to be a personal notebook and knowledge-base for anything related to gamedev that isn't properly documented elsewhere.
 
-## Markdown
 ## Engines
 ### [Unreal Engine 4](unreal/unreal.md)
 [_Official Documentation_](https://docs.unrealengine.com/latest/INT/)
@@ -39,5 +38,30 @@ Also: Please make all [_links to external pages_](google.com) _italic_, so we ca
 ## Algorithms
 [_Roguelike Vision Algorithms (Tile Based)_](http://www.adammil.net/blog/v125_Roguelike_Vision_Algorithms.html)
 
-## Tools
 ## [Git](git.md)
+
+## Powershell
+Windows 10 abandoned the cmd as default CLI, so it might be useful to get familiar with its main CLI: The Powershell
+
+### Default startup script
+Located under ```C:\Users\[username]\Documents\WindowsPowershell\profile.ps1```, which can be shortened to ```$home\Documents\WindowsPowershell\profile.ps1```
+
+### Aliases
+
+single word commands:
+```powershell
+Set-Alias AliasName AliasCommand
+```
+if you want to create an alias for use multi word commands, you'll have to wrap it in a function (which is a perfectly fine way to define alias in the first place btw)
+```powershell
+function DoSomething {
+    multi word command --with arguments
+}
+
+Set-Alias AliasName DoSomething
+```
+
+## Tools
+### TreeSize
+View Directory Size
+[Official Site](https://www.jam-software.com/treesize_free/)
