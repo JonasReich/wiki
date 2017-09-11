@@ -1,5 +1,5 @@
 # Assertions
-[Wiki](../index.md)/[Unreal](unreal.md)/Assertions
+[Wiki](../readme.md)/[Unreal](readme.md)/Assertions
 
 Source: ```/UE4/Engine/Source/Runtime/Core/Public/Misc/AssertionMacros.h```
 

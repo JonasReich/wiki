@@ -1,5 +1,5 @@
 # Unity3D
-[Wiki](../index.md)/Unity
+[Wiki](../readme.md)/Unity
 
 I've created a [GitHub repository](https://github.com/JonasReich/unity-doodads) with Unity doodads that might be useful for future projects (Editor Enhancements, code snippets, etc).
 

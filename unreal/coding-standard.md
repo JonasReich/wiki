@@ -1,5 +1,5 @@
 # Unreal Coding Standard
-[Wiki](../index.md)/[Unreal](unreal.md)/Coding Standard
+[Wiki](../readme.md)/[Unreal](readme.md)/Coding Standard
 
 Most of the rules defined in Unreal's coding standard are pretty self explanatory and widely used anyways.
 This page lists only the more specific/obscure rules. You can find a complete version [_here_](https://docs.unrealengine.com/latest/INT/Programming/Development/CodingStandard/#comments).

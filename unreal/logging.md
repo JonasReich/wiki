@@ -1,5 +1,5 @@
 # Logging
-[Wiki](../index.md)/[Unreal](unreal.md)/Logging
+[Wiki](../readme.md)/[Unreal](readme.md)/Logging
 
 ## Quick Usage
 You can always use the LogTemp for quick usage. However a custom log category is reccommended to keep everything clean and sorted.
