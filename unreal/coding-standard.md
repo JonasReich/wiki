@@ -42,4 +42,4 @@ float DoSomething(float& FirstParameter, float& SecondParameter);
 ## General
 * Always place all braces. This means no if without curly braces.
 * Always place curly braces on new lines (Exception: one line lambdas, empty function definitions)
-* Pointers/references always use this style ```UObject* Object```. Neither ~~```UObject * Object```~~, nor ~~```UObject *Object```~~. This makes searching  for them a lot easier.
+* Pointers/references always use this style ```UObject* Object```. Neither ```UObject * Object```, nor ```UObject *Object```. This makes searching  for them a lot easier.
