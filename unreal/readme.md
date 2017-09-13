@@ -41,7 +41,7 @@
 * C++/Blueprint Interaction 
 * [_Unreal Interfaces_](https://wiki.unrealengine.com/Interfaces_in_C%2B%2B)
 * [UFUNCTION](functions.md)
-* [_UPROPERTY_](https://wiki.unrealengine.com/UPROPERTY)
+* [UPROPERTY](properties.md)
 * Unreal Header Tool
 * Automatically generated source code -> X.generated.h & GENERATED_BODY()
 * TSubclassOf<T>

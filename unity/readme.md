@@ -1,7 +1,9 @@
 # Unity3D
 [Wiki](../readme.md)/Unity
 
-I've created a [GitHub repository](https://github.com/JonasReich/unity-doodads) with Unity doodads that might be useful for future projects (Editor Enhancements, code snippets, etc).
+## Personal Projects on GitHub
+I've created a [collection of Unity doodads](https://github.com/JonasReich/unity-doodads), that might be useful for future projects (Editor Enhancements, code snippets, etc).
+If you're working with Git, you might also be interested in my [Git Integration plugin](https://github.com/JonasReich/unity-git-integration).
 
 ## Interesting Articles
 [_Gamasutra: Surface Shaders for the Recently Deceased_](https://www.gamasutra.com/blogs/SamanthaStahlke/20170822/304128/Surface_Shaders_for_the_Recently_Deceased.php)
