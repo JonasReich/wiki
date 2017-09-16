@@ -6,6 +6,9 @@ This wiki is supposed to be a personal notebook and knowledge-base for anything 
 [_Official Documentation_](https://docs.unrealengine.com/latest/INT/)
 ### [Unity3D](unity/readme.md)
 
+## Windows
+[_Creating Shortcut Menu Handlers (MSDN)_](https://msdn.microsoft.com/en-us/library/cc144171(v=VS.85).aspx#custom_verbs_desktop) allows defining custom behaviour for file types/folder context menus in Windows
+
 ## Languages
 ### C++
 ### C#
