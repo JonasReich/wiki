@@ -15,7 +15,7 @@ Inline keywords that are not part of C++11, but UE4 C++
 
 * `out`
 
-	Declares the parameter as being passed by reference allowing it to be modified by the function.
+	Pass parameter by reference -> Allow modifications to original
 
 	`bool myFunc(out int x);` __???__
 
@@ -37,30 +37,34 @@ Inline keywords that are not part of C++11, but UE4 C++
 
 * `BlueprintCallable` _[Specifier]_
 
-	This function can be called from Blueprints or C++ and will be exposed to the user of Blueprint editing tools.
+	Callable from both C++ and Blueprints
 
 * `BlueprintImplementableEvent` _[Specifier]_
 
-	overridden by blueprint event, do not not define!
+	`BlueprintCallable` defined in Blueprint subclass. Unreal provides a default implementation automatically, so you can always call it safely.
 
 * `BlueprintNativeEvent` _[Specifier]_
 
-	Same as BlueprintImplementableEvent, but with default C++ implementation, which you'll have to declare as well like so:
+	`BlueprintImplementableEvent` with custom default C++ implementation, which you'll have to declare like so:
 	```c++
+	// *.h
 	UFUNCTION(BlueprintNativeEvent)
 	void Function();
 	void Function_Imeplementation();
+
+	// *.cpp
+	void *::Function_Implementation() {}
 	```
-	Don't forget to add a 'Call Parent Function' node in blueprints, if you want the _Implementation function to still be executed when overriden.
+	Add a 'Call Parent Function' node in blueprints, if you want the _Implementation function to still be executed when overriden.
 
 
 * `BlueprintPure` _[Specifier]_
 
-	This function fulfills a contract of producing no side effects, and additionally implies BlueprintCallable. Useful and clean way to implement getters.
+	`BlueprintCallable` + const, reccommended for getters
 
 * `SealedEvent` _[Specifier]_
 
-	Can't be overriden in subclasses. Only valid for events. Declare other functions as `final` to achieve the same.
+	Can't be overriden in subclasses. Only valid for events. Declare standard C++ functions as `final` to achieve the same effect.
 
 #### Restrict call scope
 
@@ -119,6 +123,7 @@ Inline keywords that are not part of C++11, but UE4 C++
 * `HidePin` _[Meta]_
 
 	For BlueprintCallable functions indicates that the parameter pin should be hidden from the user's view.
+	This means the parameter will always have its default value when called from blueprints.
 
 * `Keywords` _[Meta]_
 	For BlueprintCallable functions provides additional keywords to be associated with the function for search purposes.
@@ -160,7 +165,8 @@ Inline keywords that are not part of C++11, but UE4 C++
 
 	* `CallableWithoutWorldContext` _[Meta]_
 
-		Used for BlueprintCallable functions that have a WorldContext pin to indicate that the function can be called even if the class does not implement the virtual function GetWorld(). 
+		Used for BlueprintCallable functions that have a WorldContext pin to indicate that the function can be called even if the class does not implement the virtual function GetWorld().
+
 * ~~`DefaultToSelf`~~ _[Meta]_ _(not reccommended)_
 
 	Sets the default value of the Blueprint input pin to 'self.'
@@ -185,6 +191,34 @@ Inline keywords that are not part of C++11, but UE4 C++
 * `ServiceResponse` _[Specifier]_
 * `WithValidation` _[Specifier]_
 
+## Delegates
+
+Delegates allow you to call member functions on C++ objects in a generic, yet type-safe way. Using delegates, you can dynamically bind to a member function of an arbitrary object, then call functions on the object, even if the caller does not know the object's type.
+
+It is perfectly safe to copy delegate objects. Delegates can be passed around by value but this is generally not recommended since they do have to allocate memory on the heap. You should always pass delegates by reference when possible.
+
+Both single-cast and multi-cast delegates are supported, as well as "dynamic" delegates which can be safely serialized to disk.
+
+* __single-cast__: One target
+* __multi-cast__: Multiple targets
+	* __events__: 
+* __dynamic__: UObject, serializable, usually assignable from blueprints
+
+### Declaration
+| Delegate Type                          | Declaration macro                                                       |
+|----------------------------------------|-------------------------------------------------------------------------|
+| void Function()                        | DECLARE_DELEGATE(DelegateName)                                          |
+| void Function(<Param>)                 | DECLARE_DELEGATE_OneParam(DelegateName, ParamType)                      |
+| void Function(<Param1>, <Param2>)      | DECLARE_DELEGATE_TwoParams(DelegateName, Param1Type, Param2Type)        |
+| void Function(<Param1>, <Param2>, ...) | DECLARE_DELEGATE_<Num>Params(DelegateName, Param1Type, Param2Type, ...) |
+| <RetVal> Function(<Params>)            | DECLARE_DELEGATE_RetVal(RetValType, DelegateName, <ParamTypes>)         |
+
+You can replace DELEGATE with another delegate type:
+* MULTICAST_DELEGATE
+* EVENT
+* DYNAMIC_DELEGATE
+* DYNAMIC_MULTICAST_DELEGATE
+
 ## TODO
-Add Delegates and Timers section
+Add Timers section
 https://docs.unrealengine.com/latest/INT/Programming/UnrealArchitecture/Reference/Functions/index.html
