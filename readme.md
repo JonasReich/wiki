@@ -52,3 +52,15 @@ Set-Alias AliasName DoSomething
 ### TreeSize
 View Directory Size
 [Official Site](https://www.jam-software.com/treesize_free/)
+
+## Gamasutra Dump
+* [Prototyping a Dynamic Camera System](https://www.gamasutra.com/blogs/SamanthaStahlke/20170919/305840/Prototyping_a_Dynamic_Camera_System.php)
+* [Unity debuts open-source beta of a new machine learning AI toolkit](https://www.gamasutra.com/view/news/306061/Unity_debuts_opensource_beta_of_a_new_machine_learning_AI_toolkit.php)
+* [Creating a Dynamic Tile System](https://www.gamasutra.com/blogs/RyanMiller/20170915/305738/Creating_a_Dynamic_Tile_System.php)
+* [Lessons from Suzy Cube: The Camera System, Part 1](https://www.gamasutra.com/blogs/LouisNicolasDozois/20170907/305251/Lessons_from_Suzy_Cube_The_Camera_System_Part_1.php)
+* [Lessons from Suzy Cube: The Camera System, Part 2](https://www.gamasutra.com/blogs/LouisNicolasDozois/20170908/305311/Lessons_from_Suzy_Cube_The_Camera_System_Part_2.php)
+* [Lessons from Suzy Cube: Mobile Controls That Feel Great](https://www.gamasutra.com/blogs/LouisNicolasDozois/20170831/304790/Lessons_from_Suzy_Cube_Mobile_Controls_That_Feel_Great.php)
+* [Lessons From Suzy Cube: Improved Mobile Performance Through a Custom Culling Solution](https://www.gamasutra.com/blogs/LouisNicolasDozois/20170901/304941/Lessons_From_Suzy_Cube_Improved_Mobile_Performance_Through_a_Custom_Culling_Solution.php)
+* [An Interesting Journey in Creating a 2D Isometric Platformer](https://www.gamasutra.com/blogs/SvenDuval/20170919/305894/An_Interesting_Journey_in_Creating_a_2D_Isometric_Platformer.php)
+
+* [Tricks of the trade: Devs reveal how their games fool players](https://www.gamasutra.com/view/news/305018/Tricks_of_the_trade_Devs_reveal_how_their_games_fool_players.php)
