@@ -50,7 +50,7 @@ Set-Alias AliasName DoSomething
 
 ## Tools
 ### Resharper
-[Speeding Up Resharper](https://www.jetbrains.com/help/resharper/2016.2/Speeding_Up_ReSharper.html)
+[_Speeding Up Resharper_](https://www.jetbrains.com/help/resharper/2016.2/Speeding_Up_ReSharper.html)
 ### TreeSize
 View Directory Size
 [Official Site](https://www.jam-software.com/treesize_free/)
