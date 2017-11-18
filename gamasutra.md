@@ -14,3 +14,4 @@ Interesting links, I want to follow up on:
 * [_One Draw Call UI_](https://www.gamasutra.com/blogs/NiklasGray/20170719/301963/One_Draw_Call_UI.php)
 * [_Keyboard Focus and Event Trickling in Immediate Mode GUIs_](https://www.gamasutra.com/blogs/NiklasGray/20170926/306444/Keyboard_Focus_and_Event_Trickling_in_Immediate_Mode_GUIs.php)
 * [_Tricks of the trade: Devs reveal how their games fool players_](https://www.gamasutra.com/view/news/305018/Tricks_of_the_trade_Devs_reveal_how_their_games_fool_players.php)
+* [_Slow-mo Tips And Tricks_](https://www.gamasutra.com/blogs/MeganFox/20171109/309281/Slowmo_Tips_And_Tricks.php?elq_mid=81465&elq_cid=22858773&elqTrackId=4fc04eff44bb490e94b79ac940c7ac83&elq=74662d1247544282b926253a86dbc8ca&elqaid=81465&elqat=1&elqCampaignId=28697)
