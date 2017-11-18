@@ -1,4 +1,5 @@
 # Gamasutra
+[Wiki](../readme.md)/Gamasutra
 
 Interesting links, I want to follow up on:
 
