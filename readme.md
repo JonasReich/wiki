@@ -53,7 +53,8 @@ Set-Alias AliasName DoSomething
 [_Speeding Up Resharper_](https://www.jetbrains.com/help/resharper/2016.2/Speeding_Up_ReSharper.html)
 ### TreeSize
 [_TreeSize_](https://www.jam-software.com/treesize_free/) allows to get an overview of directory contents and sort by size.
-
+### Piskel
+[_http://www.piskelapp.com/_] is a browser based pixel art sprite editor. Great for programmers that need quick WIP sprites without the need to download dedicated tools. Even allows simple animation!
 
 ## External Sites
 ### News + Blogs
@@ -65,3 +66,7 @@ Set-Alias AliasName DoSomething
 * [_Steam Hardware Survey_](http://store.steampowered.com/hwsurvey/): useful for gathering hardware related stats, e.g. when setting min specs for a game
 * [_Videogame Chartz_](http://www.vgchartz.com/): Known game sales data from several platforms (mostly consoles)
 * [_Steam Spy_](http://steamspy.com/): _Estimated_ sales from Steam, gathered by automated steam user profile scans
+
+## Instructions + Tutorials
+* [_Red Blob Games_](https://www.redblobgames.com/): Amit Patel's extensive collection of programming tutorials (e.g. on pathfinding) and resources
+* [_Fernando Bevilacqua: Steering_](https://tutsplus.com/authors/fernando-bevilacqua): Tutorial series on flocking, steering and similar simple AI movement
