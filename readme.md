@@ -52,8 +52,8 @@ Set-Alias AliasName DoSomething
 ### Resharper
 [_Speeding Up Resharper_](https://www.jetbrains.com/help/resharper/2016.2/Speeding_Up_ReSharper.html)
 ### TreeSize
-View Directory Size
-[Official Site](https://www.jam-software.com/treesize_free/)
+[_TreeSize_](https://www.jam-software.com/treesize_free/) allows to get an overview of directory contents and sort by size.
+
 
 ## External Sites
 ### News + Blogs
