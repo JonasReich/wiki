@@ -9,7 +9,7 @@ This wiki is supposed to be a personal notebook and knowledge-base for anything 
 ## Windows
 [_Creating Shortcut Menu Handlers (MSDN)_](https://msdn.microsoft.com/en-us/library/cc144171(v=VS.85).aspx#custom_verbs_desktop) allows defining custom behaviour for file types/folder context menus in Windows
 
-## Languages
+## Programming Languages
 ### C++
 ### C#
 ### Markdown
@@ -23,7 +23,9 @@ Here are some links to get you started:
 Please make all [_links to external pages_](google.com) _italic_, so we can differentiate them more easily from [links to other wiki pages](git.md).
 
 ## Algorithms
-[_Roguelike Vision Algorithms (Tile Based)_](http://www.adammil.net/blog/v125_Roguelike_Vision_Algorithms.html)
+* [_Roguelike Vision Algorithms (Tile Based)_](http://www.adammil.net/blog/v125_Roguelike_Vision_Algorithms.html)
+* [_Red Blob Games_](https://www.redblobgames.com/): Amit Patel's extensive collection of programming tutorials (e.g. on pathfinding) and resources
+* [_Fernando Bevilacqua: Steering_](https://tutsplus.com/authors/fernando-bevilacqua): Tutorial series on flocking, steering and similar simple AI movement
 
 ## [Git](git.md)
 
@@ -66,7 +68,3 @@ Set-Alias AliasName DoSomething
 * [_Steam Hardware Survey_](http://store.steampowered.com/hwsurvey/): useful for gathering hardware related stats, e.g. when setting min specs for a game
 * [_Videogame Chartz_](http://www.vgchartz.com/): Known game sales data from several platforms (mostly consoles)
 * [_Steam Spy_](http://steamspy.com/): _Estimated_ sales from Steam, gathered by automated steam user profile scans
-
-## Instructions + Tutorials
-* [_Red Blob Games_](https://www.redblobgames.com/): Amit Patel's extensive collection of programming tutorials (e.g. on pathfinding) and resources
-* [_Fernando Bevilacqua: Steering_](https://tutsplus.com/authors/fernando-bevilacqua): Tutorial series on flocking, steering and similar simple AI movement
