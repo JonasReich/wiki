@@ -32,7 +32,7 @@
 	* FString vs FText vs FName
 	* [_String Conversion_](https://wiki.unrealengine.com/String_Conversions:_FString_to_FName,_FString_to_Int32,_Float_to_FString)
 * Collections (TArray, TMap, etc.)
-* [Smart Pointers|smart-pointers.md]
+* [Smart Pointers](smart-pointers.md)
 
 ## Unreal C++
 * C++/Blueprint Interaction 
