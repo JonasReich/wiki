@@ -22,10 +22,13 @@ Here are some links to get you started:
 
 Please make all [_links to external pages_](google.com) _italic_, so we can differentiate them more easily from [links to other wiki pages](git.md).
 
-## Algorithms
+## Algorithms/Math
 * [_Roguelike Vision Algorithms (Tile Based)_](http://www.adammil.net/blog/v125_Roguelike_Vision_Algorithms.html)
 * [_Red Blob Games_](https://www.redblobgames.com/): Amit Patel's extensive collection of programming tutorials (e.g. on pathfinding) and resources
 * [_Fernando Bevilacqua: Steering_](https://tutsplus.com/authors/fernando-bevilacqua): Tutorial series on flocking, steering and similar simple AI movement
+* [_The guide to implementing 2D platformers_](http://higherorderfun.com/blog/2012/05/20/the-guide-to-implementing-2d-platformers/)
+* [_Vector Cheat Sheet_](http://higherorderfun.com/blog/2012/06/03/math-for-game-programmers-05-vector-cheat-sheet/)
+* [_A Primer on Repeatable Random Numbers_](https://www.gamasutra.com/blogs/RuneSkovboJohansen/20150105/233505/A_Primer_on_Repeatable_Random_Numbers.php)
 
 ## [Git](git.md)
 
