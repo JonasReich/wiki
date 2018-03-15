@@ -5,4 +5,4 @@
 
 ## Extra Credits
 
-## [The Art of Screenshake](https://www.youtube.com/watch?v=AJdEqssNZ-U)
+## [_The Art of Screenshake_](https://www.youtube.com/watch?v=AJdEqssNZ-U)
