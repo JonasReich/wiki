@@ -59,6 +59,9 @@ Set-Alias AliasName DoSomething
 [_http://www.piskelapp.com/_] is a browser based pixel art sprite editor. Great for programmers that need quick WIP sprites without the need to download dedicated tools. Even allows simple animation!
 
 ## External Sites
+
+### [Videos](videos.md)
+
 ### News + Blogs
 * [_Gamasutra_](http://www.gamasutra.com/): News, postmortems, interviews and opinion pieces from community members. Every once in a while there are more detailed process descriptions/how-to's. See my [Gamasutra link dump](gamasutra.md).
 * [_Extra Credits (YouTube)_](https://www.youtube.com/user/ExtraCreditz): Various illustrated video blogs/essays. The vlogs mostly cover gamedesign and the state of the industry
