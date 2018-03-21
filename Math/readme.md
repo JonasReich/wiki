@@ -1,4 +1,4 @@
-# Git
+# Math
 [Wiki](readme.md)/Math
 
 - [_Isometric Tiles Math_](http://clintbellanger.net/articles/isometric_math/)
