@@ -2,6 +2,7 @@
 [Wiki](../readme.md)/Unreal
 
 [_Official Documentation_](https://docs.unrealengine.com/latest/INT/)
+[_Jorge Israel Peña: Unreal Notes_](https://www.blaenkdenum.com/notes/unreal-engine): great overview, but contains some errors
 
 ## Visual Studio Setup
 * [_Unreal VS Extension_](https://docs.unrealengine.com/latest/INT/Programming/Development/VisualStudioSetup/UnrealVS/)
