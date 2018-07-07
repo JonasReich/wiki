@@ -3,6 +3,8 @@
 
 Interesting links, I want to follow up on:
 
+### Tech
+
 * [_Prototyping a Dynamic Camera System_](https://www.gamasutra.com/blogs/SamanthaStahlke/20170919/305840/Prototyping_a_Dynamic_Camera_System.php)
 * [_Unity debuts open-source beta of a new machine learning AI toolkit_](https://www.gamasutra.com/view/news/306061/Unity_debuts_opensource_beta_of_a_new_machine_learning_AI_toolkit.php)
 * [_Creating a Dynamic Tile System_](https://www.gamasutra.com/blogs/RyanMiller/20170915/305738/Creating_a_Dynamic_Tile_System.php)
@@ -16,3 +18,7 @@ Interesting links, I want to follow up on:
 * [_Tricks of the trade: Devs reveal how their games fool players_](https://www.gamasutra.com/view/news/305018/Tricks_of_the_trade_Devs_reveal_how_their_games_fool_players.php)
 * [_Slow-mo Tips And Tricks_](https://www.gamasutra.com/blogs/MeganFox/20171109/309281/Slowmo_Tips_And_Tricks.php?elq_mid=81465&elq_cid=22858773&elqTrackId=4fc04eff44bb490e94b79ac940c7ac83&elq=74662d1247544282b926253a86dbc8ca&elqaid=81465&elqat=1&elqCampaignId=28697)
 * [_A Primer on Repeatable Random Numbers_](https://www.gamasutra.com/blogs/RuneSkovboJohansen/20150105/233505/A_Primer_on_Repeatable_Random_Numbers.php)
+
+### GD
+
+* [_How an Environment Layout Affects Difficulty_](https://www.gamasutra.com/blogs/PeteEllis/20161206/287014/How_an_Environment_Layout_Affects_Difficulty.php)
