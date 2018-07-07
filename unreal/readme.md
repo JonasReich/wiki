@@ -42,7 +42,7 @@
 * [UFUNCTION](functions.md)
 * [UPROPERTY](properties.md)
 * Unreal Header Tool
-* Automatically generated source code -> X.generated.h & GENERATED_BODY()
+* Automatically generated source code -> X.generated.h & ``GENERATED_BODY()``
 * TSubclassOf<T>
 * Type-Casting
 * Constructors

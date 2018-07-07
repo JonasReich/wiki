@@ -2,44 +2,63 @@
 [Wiki](../readme.md)/[Unreal](readme.md)/Logging
 
 ## Quick Usage
-You can always use the LogTemp for quick usage. However a custom log category is reccommended to keep everything clean and sorted.
+The UE_LOG macro recieves the following parameters:
+1. Log Category: You can always use the LogTemp category for temporary usage. However a custom log category should be created when you want to leave the logs in the code.
+2. Log Level: [Log, Display, Verbose, VeryVerbose, Warning, Error]
+3. Message + Params: ``TEXT("Chracter '%s' current health: %d"), *Character.GetName(), Character.HealthPoints``
 
 ```c++
 UE_LOG(LogTemp, Warning, TEXT("Your message"));
 ```
 
-## Defining A Custom Log Category
+## Defining a Custom Log Category
+
+### Extern
+This type is usable in multiple header and source files as long as they include ``LogCustom.h``.
 
 ```c++
-// LogCustom.h
+// *.h
 DECLARE_LOG_CATEGORY_EXTERN(LogCustom, Log, All);
 ```
 
 ```c++
-// LogCustom.cpp
+// *.cpp
 DEFINE_LOG_CATEGORY(LogCustom);
 ```
+
+### Class
+This type is usable only inside member functions of the class it's declared in.
+
+```c++
+// *.h
+class Foo
+{
+	DECLARE_LOG_CATEGORY_CLASS(LogCustom, Log, All);
+	// ...
+};
+```
+
+```c++
+// *.cpp
+DEFINE_LOG_CATEGORY(LogCustom);
+```
+
+### Static
+This type is only usable in a single source file.
+
+```c++
+// *.cpp
+DEFINE_LOG_CATEGORY_STATIC(LogCustom, Log, All);
+```
+
+## Using a Custom Log Category
 
 You can then use the newly created custom log like this:
 ```c++
 UE_LOG(LogCustom, Log, TEXT("Log message text"));
 ```
 
-If the name of your log category is very long, a macro like this might be handy:
-```c++
-#define YOUR_LOG(Type, Message, ...) UE_LOG(LogCustom, Type, Message, ##__VA_ARGS__);
-```
-
-which then allows you to log like you would with the ```UE_LOG```
-```c++
-YOUR_LOG(Warning, TEXT("XY accessed before initialization"));
-YOUR_LOG(Log, TEXT("Number of items: %s"), i)
-```
-
 ## On Screen Logging
 ```c++
 GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
 ```
-
-## Log Macros
-[_Unreal Wiki_](https://wiki.unrealengine.com/Log_Macro_with_Netmode_and_Colour)

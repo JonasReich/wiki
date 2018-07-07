@@ -1,6 +1,9 @@
 # Welcome
 This wiki is supposed to be a personal notebook and knowledge-base for anything related to gamedev that isn't properly documented elsewhere.
 
+## [Tech Art](tech-art/readme.md)
+Everything regarding tech art/rendering.
+
 ## Engines
 ### [Unreal Engine 4](unreal/readme.md)
 [_Official Documentation_](https://docs.unrealengine.com/latest/INT/)
@@ -11,7 +14,12 @@ This wiki is supposed to be a personal notebook and knowledge-base for anything 
 
 ## Programming Languages
 ### C++
+[C++ reference](https://en.cppreference.com/w/)
+
 ### C#
+[_MSDN C# reference_](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/)
+[_MSDN C# programming guide_](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/)
+
 ### Markdown
 
 This wiki is written in Markdown and processed by [_Jekyll_](https://jekyllrb.com/).
