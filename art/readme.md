@@ -16,6 +16,7 @@
 
 ### Textures
 * [textures.com](https://www.textures.com/) - textures, pbr materials, stock photos
+* [Free HDRIs](https://www.eisklotz.com/products/hdri/)
 
 ### 3D Models
 * [Turbosquid](https://www.turbosquid.com/)
