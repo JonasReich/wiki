@@ -1,6 +1,11 @@
 # Tech Art
 [Wiki](../readme.md)/Tech Art
 
+## Blogs/Twitter
+- [Ryan Brucks (Epic): Shader Bits](https://shaderbits.com/blog/)
+- [Klemen Lozar: Twitter](https://twitter.com/klemen_lozar)
+- [Alex Vinogradov: Twitter](https://twitter.com/yarpoplar)
+
 ## Physically Based Rendering
 
 - [Allegorithmic PBR Guide](PBR_Guide_Vol.1.pdf)
