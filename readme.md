@@ -2,7 +2,10 @@
 This wiki is supposed to be a personal notebook and knowledge-base for anything related to gamedev that isn't properly documented elsewhere.
 
 ## [Tech Art](tech-art/readme.md)
-Everything regarding tech art/rendering.
+Everything regarding tech art/rendering/realtime vfx.
+
+## [Art](art/readme.md)
+Generic 2D/3D art stuff. Lots of resources/reference material.
 
 ## Engines
 ### [Unreal Engine 4](unreal/readme.md)
